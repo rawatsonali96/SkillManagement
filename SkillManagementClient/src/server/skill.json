@@ -1,0 +1,72 @@
+{
+    "Skills": [
+        {
+            "skillId": "10",
+            "desc": "HTML",
+            "skillName": "Frontend",
+            "userSkill": null,
+            "skills": [
+                {
+                    "skillId": "1",
+                    "desc": "",
+                    "skillName": "HTML",
+                    "userSkill": {
+                        "onjob": "5",
+                        "self": "5",
+                        "level": "5",
+                        "rating": "5",
+                        "certifications": "Y"
+                    },
+                    "skills": null
+                },
+                {
+                    "skillId": "2",
+                    "desc": "",
+                    "skillName": "CSS",
+                    "userSkill": {
+                        "onjob": "3",
+                        "self": "3",
+                        "level": "3",
+                        "rating": "5",
+                        "certifications": "N"
+                    },
+                    "skills": null
+                }
+            ]
+        },
+        {
+            "skillId": "10",
+            "desc": "Angular",
+            "skillName": "Backend",
+            "userSkill": null,
+            "skills": [
+                {
+                    "skillId": "3",
+                    "desc": "Angular",
+                    "skillName": "Angular",
+                    "userSkill": {
+                        "onjob": "2",
+                        "self": "2",
+                        "level": "2",
+                        "rating": "5",
+                        "certifications": "N"
+                    },
+                    "skills": null
+                },
+                {
+                    "skillId": "22",
+                    "desc": "F#",
+                    "skillName": "F#",
+                    "userSkill": {
+                        "onjob": "1",
+                        "self": "1",
+                        "level": "4",
+                        "rating": "5",
+                        "certifications": "Y"
+                    },
+                    "skills": null
+                }
+            ]
+        }
+    ]
+}
