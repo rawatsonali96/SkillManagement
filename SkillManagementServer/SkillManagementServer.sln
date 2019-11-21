@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillManagementServer", "SkillManagementServer\SkillManagementServer.csproj", "{9E9F2C4D-8266-4295-968F-C05DA5B3985E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillManagementServer", "SkillManagementServer\SkillManagementServer.csproj", "{9E9F2C4D-8266-4295-968F-C05DA5B3985E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{FC316D82-8031-47A8-A39F-4F2BDBDC7F2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{FC316D82-8031-47A8-A39F-4F2BDBDC7F2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{3FFB3558-24F1-4E4F-B78C-F083F11C3B18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Repositories\Repositories.csproj", "{3FFB3558-24F1-4E4F-B78C-F083F11C3B18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{552B8F4B-5B61-4303-A3BE-8420FEFF19B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{552B8F4B-5B61-4303-A3BE-8420FEFF19B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

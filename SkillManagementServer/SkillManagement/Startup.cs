@@ -11,11 +11,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using SkillManagement.Repository;
 using SkillRepository;
 using SkillServices;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace SkillManagementServer
+namespace SkillManagement
 {
     public class Startup
     {
@@ -29,9 +30,10 @@ namespace SkillManagementServer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string con = Configuration.GetConnectionString("SkillConnection");
+            string con = Configuration.GetConnectionString("BicycleConnection");
             services.AddDbContext<DatabaseSet>(option => option.UseSqlServer(con));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddScoped<Dfs>();
             services.AddScoped<SkillService>();
             services.AddScoped<SkillRepo>();
             services.AddSwaggerGen(c =>
