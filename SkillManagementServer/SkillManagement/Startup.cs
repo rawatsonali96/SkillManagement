@@ -25,7 +25,7 @@ namespace SkillManagement
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string con = Configuration.GetConnectionString("BicycleConnection");
+            string con = Configuration.GetConnectionString("SkillConnection");
             services.AddDbContext<DatabaseSet>(option => option.UseSqlServer(con));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddScoped<Dfs>();
@@ -33,7 +33,7 @@ namespace SkillManagement
             services.AddScoped<SkillRepo>();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "My Bicycle type api", Version = "v1" });
+                c.SwaggerDoc("v1", new Info { Title = "Skill Management", Version = "v1" });
             });
             services.AddCors();
         }

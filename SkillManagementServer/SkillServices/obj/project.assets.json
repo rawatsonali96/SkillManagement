@@ -3001,23 +3001,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\subhap\\.nuget\\packages\\": {},
+    "C:\\Users\\anujaa\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\subhap\\Desktop\\skillmanagement\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj",
+      "projectUniqueName": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj",
       "projectName": "SkillServices",
-      "projectPath": "C:\\Users\\subhap\\Desktop\\skillmanagement\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj",
-      "packagesPath": "C:\\Users\\subhap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\subhap\\Desktop\\skillmanagement\\SkillManagement\\SkillManagementServer\\SkillServices\\obj\\",
+      "projectPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj",
+      "packagesPath": "C:\\Users\\anujaa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\subhap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anujaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3030,8 +3030,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\subhap\\Desktop\\skillmanagement\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj": {
-              "projectPath": "C:\\Users\\subhap\\Desktop\\skillmanagement\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj"
+            "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj": {
+              "projectPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj"
             }
           }
         }
