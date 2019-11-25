@@ -1,0 +1,13 @@
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\bin\Debug\netcoreapp2.2\Services.deps.json
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\bin\Debug\netcoreapp2.2\Services.dll
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\bin\Debug\netcoreapp2.2\Services.pdb
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\obj\Debug\netcoreapp2.2\Services.csprojAssemblyReference.cache
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\obj\Debug\netcoreapp2.2\Services.AssemblyInfoInputs.cache
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\obj\Debug\netcoreapp2.2\Services.AssemblyInfo.cs
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\obj\Debug\netcoreapp2.2\Services.dll
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\obj\Debug\netcoreapp2.2\Services.pdb
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\bin\Debug\netcoreapp2.2\Models.dll
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\bin\Debug\netcoreapp2.2\Repositories.dll
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\bin\Debug\netcoreapp2.2\Models.pdb
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\bin\Debug\netcoreapp2.2\Repositories.pdb
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\obj\Debug\netcoreapp2.2\Services.csproj.CopyComplete

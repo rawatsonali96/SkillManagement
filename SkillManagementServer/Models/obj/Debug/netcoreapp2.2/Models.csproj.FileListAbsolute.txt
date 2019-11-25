@@ -1,0 +1,8 @@
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Models\bin\Debug\netcoreapp2.2\Models.deps.json
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Models\bin\Debug\netcoreapp2.2\Models.dll
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Models\bin\Debug\netcoreapp2.2\Models.pdb
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfoInputs.cache
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfo.cs
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Models\obj\Debug\netcoreapp2.2\Models.dll
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Models\obj\Debug\netcoreapp2.2\Models.pdb
+C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Models\obj\Debug\netcoreapp2.2\Models.csprojAssemblyReference.cache
