@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SkillService } from '../skill.service';
 
 @Component({
   selector: 'app-user-profile',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserProfileComponent implements OnInit {
 
-  constructor() { }
+  constructor(private skillService:SkillService ) { }
 
   ngOnInit() {
+    this.skillService.getData().subscribe(
+      res=>{
+        console.log(res);
+      },
+      error=>{
+        console.log("error");
+      }
+    );
   }
 
 }
