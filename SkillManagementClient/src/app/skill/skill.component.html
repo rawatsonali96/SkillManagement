@@ -1,11 +1,11 @@
 <p>skill works!</p>
 <div class="container">
-    <table class="table table-borderless table-responsive-lg text-center">
+    <table class="table table-bordered table-responsive-lg text-center">
         <thead class="thead">
             <tr>
                 <th>SkillName </th>
                 <th>Skill</th>
-                <th>Experience</th>
+                <th>Experience </th>
                 <th>Level</th>
                 <th>Rating</th>
                 <th>Certifications</th>
@@ -14,13 +14,52 @@
         <tbody>
             <tr *ngFor="let skill of skills">
                 <td>{{skill.skillName}}</td>
-                <table class="table table-borderless">
-                    <tr *ngFor="let temp of skill.skills" >
-                        <td>{{ temp?.skillName }}</td>
-                        <!-- <td *ngFor="let temp of skill.skills">{{ temp?.skillName }}</td> -->
-                    </tr>
-                </table>
+                <td>
+                    <table class="table table-bordered">
+                        <tr *ngFor="let temp of skill.skills">
+                            <td>{{ temp?.skillName }}</td>
+                            <!-- <td *ngFor="let temp of skill.skills">{{ temp?.skillName }}</td> -->
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="table table-bordered">
+                        <tr *ngFor="let temp of skill?.skills">
+                            <td> On-Job: <input type="text" [(ngModel)]="temp?.userSkill.onjob"
+                                    [value]="temp?.userSkill.onjob"></td>
+                            <td>Self: <input type="text" [(ngModel)]="temp?.userSkill.self"
+                                    [value]="temp?.userSkill.self"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="table table-borderless">
+                        <tr *ngFor="let temp of skill?.skills">
+                            <td> <input type="text" [(ngModel)]="temp?.userSkill.level" [value]="temp?.userSkill.level">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="table table-borderless">
+                        <tr *ngFor="let temp of skill?.skills">
+                            <td> <input type="text" [(ngModel)]="temp?.userSkill.rating"
+                                    [value]="temp?.userSkill.rating">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="table table-borderless">
+                        <tr *ngFor="let temp of skill?.skills">
+                            <td> <input type="text" [(ngModel)]="temp?.userSkill.certifications"
+                                    [value]="temp?.userSkill.certifications">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
             </tr>
+
             <!-- <tr *ngFor="let skill of skills"> -->
 
 
@@ -57,14 +96,14 @@
 
 
     </table> -->
-    <!-- <div class="row" *ngFor="let skill of skills">
+<!-- <div class="row" *ngFor="let skill of skills">
             {{ skill?.skillName }}
            <div class="row" *ngFor="let temp of skill.skills">
                 {{temp?.skillName}}
            </div>
         </div> -->
 
-    <!-- <table class="table table-bordered">
+<!-- <table class="table table-bordered">
         <tr *ngFor="let skill of skills" >
             <td >
                 {{skill.skillName}}

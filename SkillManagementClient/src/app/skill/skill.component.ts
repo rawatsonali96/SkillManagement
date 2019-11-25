@@ -15,7 +15,7 @@ export class SkillComponent implements OnInit {
   ngOnInit() {
     this.skillservice.displaySkills().subscribe(res => {
       this.skills = res;
-      console.log(this.skills);
+      // console.log(this.skills);
     }, err => {
       console.log(err)
     });
