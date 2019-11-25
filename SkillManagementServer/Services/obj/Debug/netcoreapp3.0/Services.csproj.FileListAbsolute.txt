@@ -1,8 +1,0 @@
-C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\bin\Debug\netcoreapp3.0\Services.deps.json
-C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\bin\Debug\netcoreapp3.0\Services.dll
-C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\bin\Debug\netcoreapp3.0\Services.pdb
-C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\obj\Debug\netcoreapp3.0\Services.csprojAssemblyReference.cache
-C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\obj\Debug\netcoreapp3.0\Services.AssemblyInfoInputs.cache
-C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\obj\Debug\netcoreapp3.0\Services.AssemblyInfo.cs
-C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\obj\Debug\netcoreapp3.0\Services.dll
-C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\Services\obj\Debug\netcoreapp3.0\Services.pdb
