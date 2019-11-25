@@ -21,12 +21,8 @@ namespace SkillRepository
                 .HasOne<Employee>(s => s.Employee)
                 .WithMany(g => g.Skills)
                 .HasForeignKey(s => s.EmpID);
-            //modelBuilder.Entity<Skill>()
-             //        .HasOptional(c => c)
-            //         .WithMany()
-            //         .HasForeignKey(c => c.SpouseId);
         }
-    //    public DbSet<SkillTemp> SkillsTemp { get; set; }
+   
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Skill> Skills { get; set; }
         public DbSet<UserSkill> UserSkills { get; set; }
