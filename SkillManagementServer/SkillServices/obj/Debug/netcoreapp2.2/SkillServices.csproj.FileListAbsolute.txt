@@ -24,3 +24,16 @@ C:\Users\subhap\Desktop\skillmanagement\SkillManagement\SkillManagementServer\Sk
 C:\Users\subhap\Desktop\skillmanagement\SkillManagement\SkillManagementServer\SkillServices\obj\Debug\netcoreapp2.2\SkillServices.csproj.CopyComplete
 C:\Users\subhap\Desktop\skillmanagement\SkillManagement\SkillManagementServer\SkillServices\obj\Debug\netcoreapp2.2\SkillServices.dll
 C:\Users\subhap\Desktop\skillmanagement\SkillManagement\SkillManagementServer\SkillServices\obj\Debug\netcoreapp2.2\SkillServices.pdb
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\bin\Debug\netcoreapp2.2\SkillServices.deps.json
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\bin\Debug\netcoreapp2.2\SkillServices.dll
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\bin\Debug\netcoreapp2.2\SkillServices.pdb
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\bin\Debug\netcoreapp2.2\SkillModel.dll
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\bin\Debug\netcoreapp2.2\SkillRepository.dll
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\bin\Debug\netcoreapp2.2\SkillRepository.pdb
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\bin\Debug\netcoreapp2.2\SkillModel.pdb
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\obj\Debug\netcoreapp2.2\SkillServices.csprojAssemblyReference.cache
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\obj\Debug\netcoreapp2.2\SkillServices.AssemblyInfoInputs.cache
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\obj\Debug\netcoreapp2.2\SkillServices.AssemblyInfo.cs
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\obj\Debug\netcoreapp2.2\SkillServices.csproj.CopyComplete
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\obj\Debug\netcoreapp2.2\SkillServices.dll
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillServices\obj\Debug\netcoreapp2.2\SkillServices.pdb

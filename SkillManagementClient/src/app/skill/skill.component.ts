@@ -9,6 +9,9 @@ import { Skill } from '../shared/models/skill';
 })
 export class SkillComponent implements OnInit {
   private skills: Skill[] = [];
+  
+  
+  
 
   constructor(private skillservice: SkillService) { }
 
@@ -19,5 +22,13 @@ export class SkillComponent implements OnInit {
     }, err => {
       console.log(err)
     });
+  }
+  OnSubmit(){
+    console.log("Submitted");
+    console.log(this.skills);
+    
+    
+    
+    
   }
 }
