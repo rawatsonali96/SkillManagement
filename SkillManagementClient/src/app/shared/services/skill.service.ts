@@ -7,18 +7,23 @@ import { Skill } from '../models/skill'
   providedIn: 'root'
 })
 export class SkillService {
-  private url = 'http://localhost:3000/Skills';
-  private url1 = 'https://localhost:57218/api/Skills/UserSkillsTree/';
+  private url = 'http://localhost:3000/Skills'
+   url1 = 'https://localhost:44307/api/Skills/';
   id: number;
 
   constructor(private http: HttpClient) { }
 
-  displaySkills(): Observable<Skill[]> {
-    return this.http.get<Skill[]>(this.url);
-  }
-  getData() {
+  // displaySkills(): Observable<Skill[]> {
+  //   return this.http.get<Skill[]>(this.url);
+  // }
+  displaySkills() {
     console.log("inside data");
-    this.id = 1;
-    return this.http.get(this.url1 + this.id);
+    this.id = 2;
+    return this.http.get<Skill[]>(this.url1 +'UserSkillsTree/'+this.id);
+  }
+  getEmployees(){
+    console.log("Employee");
+    
+    return this.http.get(this.url1+'Employee');
   }
 }

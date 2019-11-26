@@ -11,7 +11,7 @@ export class UserProfileComponent implements OnInit {
   constructor(private skillService:SkillService ) { }
 
   ngOnInit() {
-    this.skillService.getData().subscribe(
+    this.skillService.displaySkills().subscribe(
       res=>{
         console.log(res);
       },

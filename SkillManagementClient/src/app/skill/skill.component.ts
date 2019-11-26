@@ -10,25 +10,39 @@ import { Skill } from '../shared/models/skill';
 export class SkillComponent implements OnInit {
   private skills: Skill[] = [];
   
-  
-  
 
   constructor(private skillservice: SkillService) { }
 
   ngOnInit() {
     this.skillservice.displaySkills().subscribe(res => {
       this.skills = res;
-      // console.log(this.skills);
+       console.log(this.skills);
     }, err => {
       console.log(err)
     });
-  }
-  OnSubmit(){
-    console.log("Submitted");
+   // this.fillEmpty(this.skills);
     console.log(this.skills);
     
-    
-    
-    
+  }
+  // fillEmpty(skills:Array<Skill>)
+  // {
+
+  //   skills.forEach(element => {
+  //     if(element.skills===null)
+  //     {
+  //       if(element.userSkill===null)
+  //         element.userSkill
+  //     }
+  //     else this.fillEmpty(element.skills)
+  //   });
+
+  // }
+  OnSubmit() {
+    console.log("Submitted");
+    console.log(this.skills);
+
+
+
+
   }
 }
