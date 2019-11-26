@@ -68,9 +68,17 @@ namespace SkillRepository
                 {
                     map.Add(element.SkillId, element);
                     element.skills = null;
+                    
                 }
             }
             return result;
         }
+        
+        public List<Employee> listOfEmployees()
+        {
+            return this.databaseSet.Employees.ToList();
+        }
+
+
     }
 }

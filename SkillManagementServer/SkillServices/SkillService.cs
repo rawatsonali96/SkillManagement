@@ -92,26 +92,64 @@ namespace SkillServices
         }
         public IEnumerable<SkillNode> FillNode(int id)
         {
-            
-            var skills = this.skillRepo.ShowSkills();
-            var userskills = this.skillRepo.ShowUserSkills(id);
-            var userSkillDictionary = new Dictionary<int, SkillNode>();
-            var result=this.skillRepo.FillNode(skills, userSkillDictionary, null);
-            foreach(var userskil in userskills)
+
+            try
             {
-
-                
-                var record=userSkillDictionary[userskil.SkillId];
-                if (record != null)
+                var skills = this.skillRepo.ShowSkills();
+                var userskills = this.skillRepo.ShowUserSkills(id);
+                var userSkillDictionary = new Dictionary<int, SkillNode>();
+                var result = this.skillRepo.FillNode(skills, userSkillDictionary, null);
+                foreach (var userskil in userskills)
                 {
-                    userskil.Skill = null;
-                    record.userSkill = userskil;
-                }
-                    
 
+
+                    var record = userSkillDictionary[userskil.SkillId];
+                    if (record != null)
+                    {
+                        record.UserSkillDetails = new UserSkillDetails()
+                        {
+                            UserSkillID = userskil.UserSkillID,
+                            Certification = userskil.Certification,
+                            ManagerRating = userskil.ManagerRating,
+                            ProficencyLevel = userskil.ProficencyLevel,
+                            Rating = userskil.Rating
+                        };
+                    }
+
+
+                }
+                return result;
             }
+            catch (Exception ex)
+            {  
+                throw;
+            }          
             
-            return result;
+        }
+        public List<Employee> listOfEmployees()
+        {
+
+            return skillRepo.listOfEmployees();
+        }
+
+        public List<skillMatrix> getSkillMatrix()
+        {
+            //var result = skillRepo.GetSkillMatrix();
+            //var skills = this.ShowSkills();
+            //var userSkillDictionary = new Dictionary<int, SkillNode>();
+            List<skillMatrix> skillMatrix = new List<skillMatrix>();
+            List<Employee> employees = this.listOfEmployees();
+            foreach (var Employee in employees)
+            {
+          //      var userskills = this.ShowUserSkills(Employee.EmpId);
+                skillMatrix.Add(new skillMatrix()
+                {
+                    EmployeeId = Employee.EmpId,
+                    EmployeeName = Employee.EmpName,
+                    skillNodes = this.FillNode(Employee.EmpId)
+                });
+            }
+            return skillMatrix;
         }
     }
 }

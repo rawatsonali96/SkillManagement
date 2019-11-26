@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using SkillManagement.Model;
 using SkillManagement.Repository;
 using SkillModel;
@@ -47,10 +48,19 @@ namespace SkillManagement.Controllers
             return result;
         }
         // GET: api/Skills/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        //[HttpGet("{id}", Name = "Get")]
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
+
+        [HttpGet("SkillMatrix")]
+        public ActionResult<List<skillMatrix>> Get()
         {
-            return "value";
+            //List<skillMatrix> a = new  List<skillMatrix>();
+            var val = this.skillService.getSkillMatrix();
+            return val;
+           // return  JsonConvert.SerializeObject(val); 
         }
 
         // POST: api/Skills

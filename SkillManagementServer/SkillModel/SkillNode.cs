@@ -11,6 +11,6 @@ namespace SkillModel
         public String SkillName { get; set; }
         public Nullable<int> ParentSkillId { get; set; }
         public List<SkillNode> skills { get; set; }
-        public UserSkill userSkill { get; set; }
+        public UserSkillDetails UserSkillDetails { get; set; }
     }
 }
