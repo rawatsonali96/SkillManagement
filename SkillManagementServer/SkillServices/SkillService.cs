@@ -134,9 +134,6 @@ namespace SkillServices
 
         public List<skillMatrix> getSkillMatrix()
         {
-            //var result = skillRepo.GetSkillMatrix();
-            //var skills = this.ShowSkills();
-            //var userSkillDictionary = new Dictionary<int, SkillNode>();
             List<skillMatrix> skillMatrix = new List<skillMatrix>();
             List<Employee> employees = this.listOfEmployees();
             foreach (var Employee in employees)

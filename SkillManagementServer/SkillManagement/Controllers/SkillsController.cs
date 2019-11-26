@@ -44,7 +44,7 @@ namespace SkillManagement.Controllers
         [HttpGet("UserSkillsTree/{id}")]
         public IEnumerable<SkillNode> GetUserSkillsTree(int id)
         {
-            var result =this.skillService.FillNode(id);
+           var result =this.skillService.FillNode(id);
             return result;
         }
         // GET: api/Skills/5

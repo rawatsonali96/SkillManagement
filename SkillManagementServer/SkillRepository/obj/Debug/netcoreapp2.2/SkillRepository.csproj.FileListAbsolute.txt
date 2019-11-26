@@ -20,6 +20,7 @@ C:\Users\subhap\Desktop\skillmanagement\SkillManagement\SkillManagementServer\Sk
 C:\Users\subhap\Desktop\skillmanagement\SkillManagement\SkillManagementServer\SkillRepository\obj\Debug\netcoreapp2.2\SkillRepository.csproj.CopyComplete
 C:\Users\subhap\Desktop\skillmanagement\SkillManagement\SkillManagementServer\SkillRepository\obj\Debug\netcoreapp2.2\SkillRepository.dll
 C:\Users\subhap\Desktop\skillmanagement\SkillManagement\SkillManagementServer\SkillRepository\obj\Debug\netcoreapp2.2\SkillRepository.pdb
+<<<<<<< HEAD
 C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\SkillRepository\bin\Debug\netcoreapp2.2\SkillRepository.deps.json
 C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\SkillRepository\bin\Debug\netcoreapp2.2\SkillRepository.dll
 C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\SkillRepository\bin\Debug\netcoreapp2.2\SkillRepository.pdb
@@ -31,3 +32,16 @@ C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\SkillR
 C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\SkillRepository\obj\Debug\netcoreapp2.2\SkillRepository.csproj.CopyComplete
 C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\SkillRepository\obj\Debug\netcoreapp2.2\SkillRepository.dll
 C:\Users\sonalr\Desktop\Assignments\SkillManagement\SkillManagementServer\SkillRepository\obj\Debug\netcoreapp2.2\SkillRepository.pdb
+=======
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillRepository\bin\Debug\netcoreapp2.2\SkillRepository.deps.json
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillRepository\bin\Debug\netcoreapp2.2\SkillRepository.dll
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillRepository\bin\Debug\netcoreapp2.2\SkillRepository.pdb
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillRepository\bin\Debug\netcoreapp2.2\SkillModel.dll
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillRepository\bin\Debug\netcoreapp2.2\SkillModel.pdb
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillRepository\obj\Debug\netcoreapp2.2\SkillRepository.csprojAssemblyReference.cache
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillRepository\obj\Debug\netcoreapp2.2\SkillRepository.AssemblyInfoInputs.cache
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillRepository\obj\Debug\netcoreapp2.2\SkillRepository.AssemblyInfo.cs
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillRepository\obj\Debug\netcoreapp2.2\SkillRepository.csproj.CopyComplete
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillRepository\obj\Debug\netcoreapp2.2\SkillRepository.dll
+C:\Users\anujaa\Desktop\project\SkillManagement\SkillManagementServer\SkillRepository\obj\Debug\netcoreapp2.2\SkillRepository.pdb
+>>>>>>> 36d951bd0bd558139af45fd9202da1c564c69877

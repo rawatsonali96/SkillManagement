@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillManagement\\SkillManagement.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillManagement\\SkillManagement.csproj",
         "packagesPath": "C:\\Users\\sonalr\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillManagement\\obj\\",
+=======
+    "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillManagement\\SkillManagement.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillManagement\\SkillManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillManagement\\SkillManagement.csproj",
+        "projectName": "SkillManagement",
+        "projectPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillManagement\\SkillManagement.csproj",
+        "packagesPath": "C:\\Users\\anujaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillManagement\\obj\\",
+>>>>>>> 36d951bd0bd558139af45fd9202da1c564c69877
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\sonalr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\anujaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 36d951bd0bd558139af45fd9202da1c564c69877
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,11 +48,19 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj": {
                 "projectPath": "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj"
               },
               "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj": {
                 "projectPath": "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj"
+=======
+              "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj": {
+                "projectPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj"
+              },
+              "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj": {
+                "projectPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj"
+>>>>>>> 36d951bd0bd558139af45fd9202da1c564c69877
               }
             }
           }
@@ -88,6 +114,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -96,12 +123,26 @@
         "projectPath": "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj",
         "packagesPath": "C:\\Users\\sonalr\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillModel\\obj\\",
+=======
+    "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj",
+        "projectName": "SkillModel",
+        "projectPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj",
+        "packagesPath": "C:\\Users\\anujaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillModel\\obj\\",
+>>>>>>> 36d951bd0bd558139af45fd9202da1c564c69877
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\sonalr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\anujaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 36d951bd0bd558139af45fd9202da1c564c69877
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -150,6 +191,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -158,12 +200,26 @@
         "projectPath": "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj",
         "packagesPath": "C:\\Users\\sonalr\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillRepository\\obj\\",
+=======
+    "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj",
+        "projectName": "SkillRepository",
+        "projectPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj",
+        "packagesPath": "C:\\Users\\anujaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillRepository\\obj\\",
+>>>>>>> 36d951bd0bd558139af45fd9202da1c564c69877
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\sonalr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\anujaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 36d951bd0bd558139af45fd9202da1c564c69877
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -176,8 +232,13 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj": {
                 "projectPath": "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj"
+=======
+              "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj": {
+                "projectPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillModel\\SkillModel.csproj"
+>>>>>>> 36d951bd0bd558139af45fd9202da1c564c69877
               }
             }
           }
@@ -212,6 +273,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -220,12 +282,26 @@
         "projectPath": "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj",
         "packagesPath": "C:\\Users\\sonalr\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillServices\\obj\\",
+=======
+    "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj",
+        "projectName": "SkillServices",
+        "projectPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillServices\\SkillServices.csproj",
+        "packagesPath": "C:\\Users\\anujaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillServices\\obj\\",
+>>>>>>> 36d951bd0bd558139af45fd9202da1c564c69877
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\sonalr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\anujaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 36d951bd0bd558139af45fd9202da1c564c69877
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -238,8 +314,13 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj": {
                 "projectPath": "C:\\Users\\sonalr\\Desktop\\Assignments\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj"
+=======
+              "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj": {
+                "projectPath": "C:\\Users\\anujaa\\Desktop\\project\\SkillManagement\\SkillManagementServer\\SkillRepository\\SkillRepository.csproj"
+>>>>>>> 36d951bd0bd558139af45fd9202da1c564c69877
               }
             }
           }
