@@ -1,33 +1,52 @@
-
 <table class="table table-bordered table-responsive-lg text-center display-6">
     <thead class="thead">
-    <tr>
-        <th rowspan="2">SkillName </th>
-        <th rowspan="2">Skill</th>
-        <th colspan="2">Experience </th>
-        <th rowspan="2">Level</th>
-        <th rowspan="2">Rating</th>
-        <th rowspan="2">Certifications</th>
-    </tr>
-    <tr>
-        <th>On-job</th>
-        <th>Self</th>
-    </tr>
+        <tr>
+            <th rowspan="2">SkillName </th>
+            <th rowspan="2">Skill</th>
+            <th colspan="2">Experience </th>
+            <th rowspan="2">Level</th>
+            <th rowspan="2">Rating</th>
+            <th rowspan="2">Certifications</th>
+        </tr>
+        <tr>
+            <th>On-job</th>
+            <th>Self</th>
+        </tr>
     </thead>
     <tbody>
         <tr *ngFor="let skill of skills">
-            <td>{{skill.skillName}}</td>
+            <td>{{skill?.skillName}}
+            </td>
             <td>
                 <table class="table table-bordered">
                     <tr *ngFor="let temp of skill.skills">
                         <td>{{ temp?.skillName }}</td>
+
                     </tr>
                 </table>
             </td>
             <td>
                 <table class="table table-bordered">
                     <tr *ngFor="let temp of skill?.skills">
-                        <td> <input type="text" [(ngModel)]="temp?.userSkill.onjob" [value]="temp?.userSkill.onjob">
+                        <!-- <td> <input type="text" [(ngModel)]="temp?.userSkill.onjob" [value]="temp?.userSkill.onjob"> -->
+                        <td> <input type="text" [value]="1">
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table class="table table-bordered">
+                    <tr *ngFor="let temp of skill?.skills">
+                        <!-- <td><input type="text" [(ngModel)]="temp?.userSkill.self" [value]="temp?.userSkill.self"></td> -->
+                        <td> <input type="text" [value]="2">
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table class="table table-bordered">
+                    <tr *ngFor="let temp of skill?.skills">
+                        <!-- <td> <input type="text" [(ngModel)]="temp?.userSkill.proficencyLevel" [value]="temp?.userSkill.proficencyLevel">
+                        </td> -->
+                        <td> <input type="text" [value]="3">
                         </td>
                     </tr>
                 </table>
@@ -35,14 +54,7 @@
             <td>
                 <table class="table table-bordered">
                     <tr *ngFor="let temp of skill?.skills">
-                        <td><input type="text" [(ngModel)]="temp?.userSkill.self" [value]="temp?.userSkill.self"></td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table class="table table-bordered">
-                    <tr *ngFor="let temp of skill?.skills">
-                        <td> <input type="text" [(ngModel)]="temp?.userSkill.level" [value]="temp?.userSkill.level">
+                        <td> <input type="text" [value]="7">
                         </td>
                     </tr>
                 </table>
@@ -50,16 +62,10 @@
             <td>
                 <table class="table table-bordered">
                     <tr *ngFor="let temp of skill?.skills">
-                        <td> <input type="text" [(ngModel)]="temp?.userSkill.rating" [value]="temp?.userSkill.rating">
-                        </td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table class="table table-bordered">
-                    <tr *ngFor="let temp of skill?.skills">
-                        <td> <input type="text" [(ngModel)]="temp?.userSkill.certifications"
+                        <!-- <td> <input type="text" [(ngModel)]="temp?.userSkill.certifications"
                                 [value]="temp?.userSkill.certifications">
+                        </td> -->
+                        <td> <input type="text" [value]="4">
                         </td>
                     </tr>
                 </table>
